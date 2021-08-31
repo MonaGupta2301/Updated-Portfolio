@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Mulish';
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+   
+    justify-content: center;
+    align-items: center;
+
+}
+#masterDiv{
+    height: auto;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.E1{
+    text-align: center;
+     height: 300px; 
+     width: 300px; 
+     background:linear-gradient(to left bottom, rgb(238, 58, 45),rgb(245, 76, 24),rgb(255, 145, 2))
+
+}
+.E1:hover{
+    height: 310px; 
+    width: 310px; 
+    margin:20px;
+    background: linear-gradient(to left , rgb(238, 58, 45),rgb(245, 76, 24),rgb(255, 145, 2));
+}
+.P1{
+    text-align: center;
+     height: 180px; 
+     width: 300px; 
+     background-color:  rgb(241, 240, 240);
+     box-shadow: 0 10px 10px 0 rgb(175, 175, 175);
+     /* background:linear-gradient(to left bottom, rgb(126, 237, 252),rgb(114, 180, 218),rgb(50, 113, 250)) */
+
+}
+#mainDiv ul li{
+    float:right;
+    font-size: 1vw;
+    list-style-type:none;
+    padding: 10px;
+}
+.s1{
+    width:100%;
+    height:100%;
+}
+#mainDiv ul li :hover{
+    text-decoration: none;
+    /* font-size: 2em; */
+    color:rgb(255, 116, 51);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px 0 rgb(175, 175, 175);
+}    
+.a1{
+   text-decoration: none;
+   font-size: 1.5em;
+    list-style-type:none;
+    color:black;
+}
+
+#hire:hover{
+    box-shadow: 0 0 20px red;
+}
+
+#box2
+{
+    height: 600px;
+    width: 1300px;
+    box-shadow: 0 10px 10px 0 rgb(175, 175, 175);
+    border:transparent;
+    /* border-radius: 8px; */
+    background-color: white; 
+}
+#box3
+{
+    height: 600px;
+    width: 1300px;
+    box-shadow: 0 10px 10px 0 rgb(175, 175, 175);
+    border:transparent;
+    /* border-radius: 8px; */
+    background-color: white; 
+}
+@media(max-width:4040px){
+    #masterDiv{height: auto; width: auto;}
+    #box2{height:auto; width: auto;}
+    .education{height: auto; width: auto;}
+    #box3{height:auto; width: auto;}
+}
+
+.img{
+    position: relative;
+    top: 25%;
+    left: 15%;
+}
+.box1{
+    max-height: 100%;
+}
+/* @media (min-device-width:600px) {
+    /* img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    } */
+/* } */
