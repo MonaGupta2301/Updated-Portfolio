@@ -99,7 +99,6 @@ body{
     .education{height: auto; width: auto;}
     #box3{height:auto; width: auto;}
 }
-
 .img{
     position: relative;
     top: 25%;
@@ -112,4 +111,7 @@ body{
     /* img[data-src-600px] {
         content: attr(data-src-600px, url);
     } */
+
+
+
 /* } */
