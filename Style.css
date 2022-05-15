@@ -27,7 +27,6 @@ body{
      height: 300px; 
      width: 300px; 
      background:linear-gradient(to left bottom, rgb(238, 58, 45),rgb(245, 76, 24),rgb(255, 145, 2))
-
 }
 .E1:hover{
     height: 310px; 
@@ -109,7 +108,4 @@ body{
     /* img[data-src-600px] {
         content: attr(data-src-600px, url);
     } */
-
-
-
 /* } */
